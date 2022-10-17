@@ -6,3 +6,5 @@ In an increasingly medial society, an elementary understanding of algorithms and
 The seminar teaches the technical and artistic basics of programming under Python. Generative algorithms of text creation form the core of the methods used. In addition to teaching central data and control structures within a simple development environment, the focus is on introducing programming as an artistic practice. However, the seminar can only help over the first hurdles. Code can only become one's own artistic signature when the craft is so well mastered that it is no longer a matter of pure functioning, but of exploring the aesthetic potential. In particular, generative processes are about the balance between freedom and control. Where can I forgo control in favor of surprise, where do I want to retain control in order to achieve certain aesthetic results?
 
 We ask for registration by 01 October 2022. (c.heck@khm.de or g.trogemann@khm.de) No prior knowledge of programming is required to participate in the seminar.
+
+[Jupyter Hub](https://dev.ground-zero.khm.de/jupyter-hub/)
