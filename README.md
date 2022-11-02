@@ -13,3 +13,4 @@ The seminar teaches the technical and artistic basics of programming under Pytho
 No prior knowledge of programming is required to participate in the seminar.
 
 [Jupyter Hub](https://dev.ground-zero.khm.de/jupyter-hub/)
+
