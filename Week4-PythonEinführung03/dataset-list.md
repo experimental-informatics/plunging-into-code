@@ -16,16 +16,16 @@ The size of state-of-the-art language models is growing by a factor of 10 every 
 
 The most of the scrapes coming from Common Crawl and WebText Corpus. In there you'll find material from the following platforms:
 
-![](./data/crawls-gpt.png)
+![](./images/crawls-gpt.png)
 
-![moedels-and-datasets](./data/moedels-and-datasets.png)
+![moedels-and-datasets](./images/moedels-and-datasets.png)
 
 
 
 ***Well... the slide above we've showed last year in our programming-textgenerators-seminar.***
 
 ***Today it looks like this:***
-![](./data/datasets-today.png)
+![](./images/datasets-today.png)
 
 [source](https://lifearchitect.ai/models/)
 
