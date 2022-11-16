@@ -1,35 +1,53 @@
-# DATASETS
+# DATASETS for NLP/NLG Tasks
 
-We can say, that the efforts in AI-Algorithms , perhaps, the most major AI breakthroughs in the past 25 years were growing in propotion to the availability of high-quality training datasets.
 
-![](https://images.squarespace-cdn.com/content/54345ed8e4b0fa5705e1825b/1459449530701-68FQZ878JRPQCE97XVCC/AIBreakthrough.png?content-type=image%2Fpng)
 
-[source](https://www.kdnuggets.com/2016/05/datasets-over-algorithms.html)
+## List of Propaganda, Misinformation & Hate Speech Datasets
 
-In addition to "Open Data", the publication of novel datasets plays a major role in promoting ML-based applications into the market. In this regard, access to novel datasets in particular is essential for securing the competitive edge of ML-based systems. After all, if newly acquired data sets are published, new applications will emerge within a short period of time (on average within 3 years).
+### Ukraine War
+
+* Weibo Dataset: https://blender.cs.illinois.edu/paper/weibo2022.pdf
+  * available on github: https://github.com/yrf1/RussiaUkraine_weibo_dataset
+* Twitter Dataset: https://arxiv.org/pdf/2203.02955.pdf
+  * available on github: https://github.com/ehsanulhaq1/russo_ukraine_dataset
+* 2022-Ukraine-Russia-War-Dataset (dataset that describes Equipment Losses & Death Toll & Military  Wounded & Prisoner of War of russians in 2022 Ukraine russia War)
+  * available on github: https://github.com/PetroIvaniuk/2022-Ukraine-Russia-War-Dataset
+
+* Ukraine conflict Twitter dataset
+  * available on Kaggle: [https://www.kaggle.com/datasets/bwandowando/ukraine-russian-crisis](https://www.kaggle.com/datasets/bwandowando/ukraine-russian-crisis-twitter-dataset-1-2-m-rows)
+
+
+### Misinformation
+
+* Dataset of the study [Not Good Times for Lies: Misinformation Detection on the Russia-Ukraine War, COVID-19, and Refugees](https://arxiv.org/abs/2210.05401)
+  * available on github: https://github.com/avaapm/mide22
+
+
+### Hate Speech
+
+* Hate Speech Dataset Catalogue: https://hatespeechdata.com/
+
+### Propaganda
+
+* The Propaganda Techniques Corpus (PTC)
+
+  *"Propagandistic news articles use specific techniques to convey  their message, such as whataboutism, red Herring, and name calling,  among many others. The Propaganda Techniques Corpus (PTC) allows to  study automatic algorithms to detect them. We provide a permanent  leaderboard to allow researchers both to advertise their progress and to be up-to-speed with the state of the art on the tasks offered (see  below for a definition)."* < see: https://propaganda.qcri.org/ptc/
+
+* Web Interface Demos: https://www.tanbih.org/prta
+
+  1. Propaganda technique analysis on a topic: https://www.tanbih.org/propaganda/
+
+  2. Highlighting of the propaganda techniques in a text: https://www.tanbih.org/propagandasubmit
 
 ---
 
-Today's large AI models are increasingly created by individual companies, such as Google, Microsoft, OpenAI, Facebook, Salesforce, etc., at a scale that makes them unusable for further (free) research purposes, primarily due to lack of resources.
-
-The size of state-of-the-art language models is growing by a factor of 10 every year, and the training dataset for GPT-3 consists of nearly 500 billion words from the Internet, largely through web scraping. 
-
-The most of the scrapes coming from Common Crawl and WebText Corpus. In there you'll find material from the following platforms:
-
-![](./images/crawls-gpt.png)
-
-![moedels-and-datasets](./images/moedels-and-datasets.png)
+---
 
 
 
-***Well... the slide above we've showed last year in our programming-textgenerators-seminar.***
+## ...some more datasets for NLG Tasks
 
-***Today it looks like this:***
-![](./images/datasets-today.png)
 
-[source](https://lifearchitect.ai/models/)
-
-## just a tiny list of datasets for NLG Tasks
 
 ### Multilingual Datasets
 
@@ -48,7 +66,10 @@ The most of the scrapes coming from Common Crawl and WebText Corpus. In there yo
 - [Obama speeches](https://github.com/samim23/obama-rnn)
 
 * [Curated list by NLG tasks](https://aclweb.org/aclwiki/Data_sets_for_NLG)
+* [Many free twitter datasets](https://www.trackmyhashtag.com/blog/free-twitter-datasets/)
 ---
+
+
 
 ### German Text Datasets
 
@@ -65,6 +86,8 @@ The most of the scrapes coming from Common Crawl and WebText Corpus. In there yo
 * https://www.inf.uni-hamburg.de/en/inst/ab/lt/resources/data.html: Collection of language resources for different NLP research projects. Datasets range from web-scale pre-processed corpora, distributional thesauri, named entity annotation, semantic and lexical substitution, multi-word and complex word annotations to recordings and acoustic models for speech recognition in German. Our datasets are distributed under CC-BY 4.0 license, i.e. free to use for all, whenever possible
 * [Metatext List](https://metatext.io/datasets-list/german-language)
 ---
+
+
 
 ### (Free) Online Archives
 
@@ -95,6 +118,8 @@ The most of the scrapes coming from Common Crawl and WebText Corpus. In there yo
 
 ---
 
+
+
 ### Allison Parrish's Gutenberg Poetry Corpus
 
 a Gutenberg Poetry corpus, comprised of approximately three million lines of poetry extracted from hundreds of books from [Project Gutenberg](https://gutenberg.org/). The corpus is especially suited to applications in creative computational poetic text generation:
@@ -102,6 +127,8 @@ a Gutenberg Poetry corpus, comprised of approximately three million lines of poe
 * see: https://github.com/aparrish/gutenberg-poetry-corpus
 
 ---
+
+
 
 ### Clickworkers & MTurkers
 
