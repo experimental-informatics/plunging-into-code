@@ -1,6 +1,6 @@
 # DATASETS for NLP/NLG Tasks
 
-
+[toc]
 
 ## List of Propaganda, Misinformation & Hate Speech Datasets
 
@@ -126,28 +126,4 @@ a Gutenberg Poetry corpus, comprised of approximately three million lines of poe
 
 * see: https://github.com/aparrish/gutenberg-poetry-corpus
 
----
 
-
-
-### Clickworkers & MTurkers
-
-Engage People to create Datasets for your Machine Learning & Artificial Intelligence (AI) training: 
-
-* https://www.clickworker.com/machine-learning-ai-artificial-intelligence/
-
-Engage People over Amazons mechanical turk to do the work for you:
-
-* https://www.mturk.com/
-
-MTurk is probably the largest supplier of data sets for training Artificial Neural Net's.  A microservices service from Amazon where freelancers do micro jobs for pennies. It is often referred to as 'the artificial artificial intelligence' (AAI).  Approximately 500,000 people from 190 nations perform countless HITs (Human Intelligence Tasks) every day, contributing significantly to the quality of each AI model and thus to the evaluated output, what will then appear reframed as a work of art.
-
-#### 2 Examples from artworks, conceptualized this way of artificial artificial intelligence
-
-Greek artist Ilan Manouach addresses such questions of authorship in his comic "The Cubicle Island -Pirates, Microworkers, Spambots and the venatic lore of clickfarm humor" by having microworkers from the Mechanical Turk platform create 17,000 text contributions to hundreds of cartoons on deserted islands (a popular genre).
-
-* see: https://ilanmanouach.com/project/cubicleisland/
-
-Nick Thurston also directed our gaze into the White Box of the Artificial Artificial Intelligence, whose work processes are not invisible, but rather simply no longer traceable and verifiable. In this regard, artist Johanna Drucker's brief introduction to Thurston's work critical of computer capitalism, "The first ‘computers’ were people, hired to do the tedious work of  creating accounting systems and tax roles for the administration of  newly created bureaucratic structures in post-Revolutionary France.* Of the Subcontract *presents the poems of their descendants. While this imaginative project extends a line of conceptualist practice that shows us how forms of  aesthetic expression take root in the broader culture and what the  continuum of amateur and professional work is, it also shows us how  poetic acts, like other modes of production, conceal the contradictions  and inequities of labour and value in a global world*".
-
-* see Interview with Thurston about this work: http://writing.upenn.edu/epc/authors/thurston/Voyce-and-Thurston_Iowa%20Review%20interview_2014.pdf
