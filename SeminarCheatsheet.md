@@ -6,6 +6,7 @@ This is the page for hints beginning of the seminar:
 
 ### URL to the environment:
 
+http://167.235.56.3/
 https://dev.ground-zero.khm.de/jupyter-hub
 
 login with your own account and password
