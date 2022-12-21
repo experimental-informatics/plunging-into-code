@@ -209,9 +209,15 @@ done
 
 
 
-
 <pre>
-"...dass jedes Kunstwerk, auch wenn es nach einer ausdrücklichen oder unausdrücklichen Poetik der Notwendigkeit produziert wurde, wesensmässig offen ist für eine virtuell unendliche Reihe möglicher Lesearten, deren jede das Werk gemäss deiner persönlichen Perspektive, Geschmacksrichtung, Ausführung neu belebt;"
+"...dass jedes Kunstwerk, auch wenn es nach einer ausdrücklichen oder 
+unausdrücklichen Poetik der Notwendigkeit produziert wurde, wesensmässig offen ist 
+für eine virtuell unendliche Reihe möglicher Lesearten, 
+deren jede das Werk gemäss deiner persönlichen Perspektive, 
+Geschmacksrichtung, Ausführung neu belebt;"
+</pre>
+
+
 
 Umberto Eco
 das offene Kunstwerk« (1962)
