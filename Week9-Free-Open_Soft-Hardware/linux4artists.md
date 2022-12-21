@@ -267,6 +267,7 @@ watch: nick.webm #timestamp: 08:03
 I inserted the American Constitution as well as excerpts from Obama's
 speech about the NSA into the image code, and them combined it with
 glitching software online, as well as glitching code in Processing 
+</pre>
 
 ---
 
