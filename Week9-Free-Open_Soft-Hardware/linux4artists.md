@@ -46,6 +46,40 @@ distros4artists: https://exmediawiki.khm.de/index.php/Distributionen
 
 ![linus-torvald-first-linux-email](./data/linus-torvald-first-linux-email.jpg)
 
+# FLOSS (Free Libre Open Source Software)
+
+Eric Raymond < http://www.catb.org/~esr/writings/cathedral-bazaar/
+
+Die Kathedrale und der Basar ist ein Essay über quelloffene Software von Eric S. Raymond, der ihn erstmals auf dem vierten Internationalen Linux-Kongress am 22. Mai 1997 in Würzburg öffentlich vortrug. Er beschreibt darin die Vor- und Nachteile der im Open-Source-Bereich inzwischen weit verbreiteten Entwicklungsmethode des Basars gegenüber der zuvor gebräuchlichen Methode, die er Kathedrale nennt. 
+
+**Cathedral Model** < wenige Programmierer, in hierarchisch-strukturierten G ruppen mit engen Managmentvorgaben und langen Abstaenden zwischen den Veroeffentlichungen....
+
+v.s.
+
+**Bazaar Model** < weit voneinander entfernt wohnende Personen die miteinander kooperieren ... dadurch schnelle Veroeffentlichungen und jeder kann zum Endprodukt teilhaben
+
+Im Essay sind 19 Richtlinien enthalten, wie gute Open-Source-Software programmiert werden kann (see: [Wikipedia](https://de.wikipedia.org/wiki/Die_Kathedrale_und_der_Basar)):
+
+1. Jede gute Software wird von einem Entwickler geschrieben, der ein persönliches Problem lösen will.
+2. Gute Programmierer wissen, was sie schreiben müssen. Brillante  wissen, was sie neuschreiben müssen (und was sie wiederverwenden  können).
+3. Plane, eine Version zu verwerfen; du wirst es sowieso tun.
+4. Wenn du die richtige Einstellung hast, werden dich interessante Probleme finden.
+5. Wenn du das Interesse an einem Programm verlierst, ist es deine Pflicht, dieses einem kompetenten Nachfolger zu übergeben.
+6. Wenn du deine Benutzer als Mitprogrammierer betrachtest, ist dies der einfachste Weg zu schneller Verbesserung und effizientem [Debugging](https://de.wikipedia.org/wiki/Debugging).
+7. [Veröffentliche früh. Veröffentliche häufig.](https://de.wikipedia.org/wiki/Release_early,_release_often) Und höre auf die Benutzer.
+8. Mit einer hinreichend großen Gruppe von Betatestern und  Mitentwicklern wird fast jedes Problem schnell erkannt und die Lösung  von jemandem gefunden.
+9. Schlaue Datenstrukturen und einfacher Code (im englischen Original: „dumb code“) funktionieren viel besser als andersherum.
+10. Wenn du deine Betatester wie deine wertvollste Ressource behandelst, werden sie dies auch werden.
+11. Fast so gut wie eigene gute Ideen zu haben, ist es, gute Ideen von den Benutzern zu erkennen. Manchmal ist letzteres besser.
+12. Meist entstehen die brillanten Lösungen aus der Erkenntnis, dass das Problem falsch verstanden wurde.
+13. Perfektion (im Design) ist nicht erreicht, wenn man nichts mehr hinzufügen kann, sondern wenn nichts mehr entfernt werden kann.
+14. Jedes Tool soll so funktionieren, wie erwartet. Aber ein wirklich  gutes Tool ermöglicht Verwendungszwecke, an die du niemals gedacht  hättest.
+15. Wenn du [Schnittstellencode](https://de.wikipedia.org/wiki/Schnittstelle) schreibst, verhindere um jeden Preis, den Datenstrom zu verändern – und verwirf nur etwas, wenn dies der Empfänger verlangt.
+16. Wenn deine Programmiersprache nicht ansatzweise [Turing-vollständig](https://de.wikipedia.org/wiki/Turing-Vollständigkeit) ist, kann [syntaktischer Zucker](https://de.wikipedia.org/wiki/Syntaktischer_Zucker) dein Freund sein.
+17. Ein Sicherheitssystem ist nur so sicher wie sein Geheimnis. Vermeide Pseudogeheimnisse.
+18. Um ein interessantes Problem zu lösen, suche eines.
+19. Mit ausreichend guter Kommunikation, wie über das Internet, und Führung ohne Zwang, sind viele Köpfe immer besser als einer.
+
 # GNU/Linux
 
 | ![Gnu-vs-linux_orig](./data/Gnu-vs-linux_orig.jpg) | ![Unix_Aufbau](./data/Unix_Aufbau.gif) |
