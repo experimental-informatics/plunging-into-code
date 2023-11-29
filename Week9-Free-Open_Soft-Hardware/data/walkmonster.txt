@@ -1,0 +1,264 @@
+$cd ug/models/soldier3
+$origin 0 -6 24
+$base base
+$skin skin
+$frame soldierc
+$frame soldierd
+/*
+*/
+void() army_fire;
+void() army_stand1 =[ $soldierc, army_stand2 ]
+{ai_stand();};
+void() army_stand2 =[ $soldierc, army_stand3 ]
+{ai_stand();};
+void() army_stand3 =[ $soldierc, army_stand4 ]
+{ai_stand();};
+void() army_stand4 =[ $soldierc, army_stand5 ]
+{ai_stand();};
+void() army_stand5 =[ $soldierc, army_stand6 ]
+{ai_stand();};
+void() army_stand6 =[ $soldierc, army_stand7 ]
+{ai_stand();};
+void() army_stand7 =[ $soldierc, army_stand8 ]
+{ai_stand();};
+void() army_stand8 =[ $soldierc, army_stand1 ]
+{ai_stand();};
+void() army_walk1 =[ $soldierc, army_walk2 ] {
+if (random() < 0.2)
+    sound (self, CHAN_VOICE, "soldier/idle.wav", 1, ATTN_IDLE);
+ai_walk(1);};
+void() army_walk2 =[ $soldierc, army_walk3 ]
+{ai_walk(1);};
+void() army_walk3 =[ $soldierc, army_walk4 ]
+{ai_walk(1);};
+void() army_walk4 =[ $soldierc, army_walk5 ]
+{ai_walk(1);};
+void() army_walk5 =[ $soldierc, army_walk6 ]
+{ai_walk(2);};
+void() army_walk6 =[ $soldierc, army_walk7 ]
+{ai_walk(3);};
+void() army_walk7 =[ $soldierc, army_walk8 ]
+{ai_walk(4);};
+void() army_walk8 =[ $soldierc, army_walk9 ]
+{ai_walk(4);};
+void() army_walk9 =[ $soldierc, army_walk10 ]
+{ai_walk(2);};
+void() army_walk10 =[ $soldierc, army_walk11 ]
+{ai_walk(2);};
+void() army_walk11 =[ $soldierc, army_walk12 ]
+{ai_walk(2);};
+void() army_walk12 =[ $soldierc, army_walk13 ]
+{ai_walk(1);};
+void() army_walk13 =[ $soldierc, army_walk14 ]
+{ai_walk(0);};
+void() army_walk14 =[ $soldierc, army_walk15 ]
+{ai_walk(1);};
+void() army_walk15 =[ $soldierc, army_walk16 ]
+{ai_walk(1);};
+void() army_walk16 =[ $soldierc, army_walk17 ]
+{ai_walk(1);};
+void() army_walk17 =[ $soldierc, army_walk18 ]
+{ai_walk(3);};
+void() army_walk18 =[ $soldierc, army_walk19 ]
+{ai_walk(3);};
+void() army_walk19 =[ $soldierc, army_walk20 ]
+{ai_walk(3);};
+void() army_walk20 =[ $soldierc, army_walk21 ]
+{ai_walk(3);};
+void() army_walk21 =[ $soldierc, army_walk22 ]
+{ai_walk(2);};
+void() army_walk22 =[ $soldierc, army_walk23 ]
+{ai_walk(1);};
+void() army_walk23 =[ $soldierc, army_walk24 ]
+{ai_walk(1);};
+void() army_walk24 =[ $soldierc, army_walk1 ]
+{ai_walk(1);};
+void() army_run1    =[ $soldierc,       army_run2   ] {
+if (random() < 0.2)
+    sound (self, CHAN_VOICE, "soldier/idle.wav", 1, ATTN_IDLE);
+ai_run(11);};
+void() army_run2    =[ $soldierc,       army_run3   ]
+{ai_run(15);};
+void() army_run3    =[ $soldierc,       army_run4   ]
+{ai_run(10);};
+void() army_run4    =[ $soldierc,       army_run5   ]
+{ai_run(10);};
+void() army_run5    =[ $soldierc,       army_run6   ]
+{ai_run(8);};
+void() army_run6    =[ $soldierc,       army_run7   ]
+{ai_run(15);};
+void() army_run7    =[ $soldierc,       army_run8   ]
+{ai_run(10);};
+void() army_run8    =[ $soldierc,       army_run1   ]
+{ai_run(8);};
+void() army_atk1    =[ $soldierc, army_atk2     ] {ai_face();};
+void() army_atk2    =[ $soldierc, army_atk3     ] {ai_face();};
+void() army_atk3    =[ $soldierc, army_atk4     ] {ai_face();};
+void() army_atk4    =[ $soldierc, army_atk5     ] {ai_face();};
+void() army_atk5    =[ $soldierc, army_atk6     ]
+{ai_face();army_fire();
+};
+void() army_atk6    =[ $soldierc, army_atk7     ] {ai_face();};
+void() army_atk7    =[ $soldierc, army_atk8     ]
+{ai_face();SUB_CheckRefire (army_atk1);};
+void() army_atk8    =[ $soldierc, army_atk9     ] {ai_face();};
+void() army_atk9    =[ $soldierc, army_run1     ] {ai_face();};
+void() army_pain1 =[ $soldierc,         army_pain2 ] {};
+void() army_pain2 =[ $soldierc,         army_pain3 ] {};
+void() army_pain3 =[ $soldierc,         army_pain4 ] {};
+void() army_pain4 =[ $soldierc,         army_pain5 ] {};
+void() army_pain5 =[ $soldierc,         army_pain6 ] {};
+void() army_pain6 =[ $soldierc,         army_run1   ]
+{ai_pain(1);};
+void() army_painb1 =[ $soldierc, army_painb2 ] {};
+void() army_painb2 =[ $soldierc, army_painb3 ]
+{ai_painforward(13);};
+void() army_painb3 =[ $soldierc, army_painb4 ]
+{ai_painforward(9);};
+void() army_painb4 =[ $soldierc, army_painb5 ] {};
+void() army_painb5 =[ $soldierc, army_painb6 ] {};
+void() army_painb6 =[ $soldierc, army_painb7 ] {};
+void() army_painb7 =[ $soldierc, army_painb8 ] {};
+void() army_painb8 =[ $soldierc, army_painb9 ] {};
+void() army_painb9 =[ $soldierc, army_painb10] {};
+void() army_painb10=[ $soldierc, army_painb11] {};
+void() army_painb11=[ $soldierc, army_painb12] {};
+void() army_painb12=[ $soldierc, army_painb13] {ai_pain(2);};
+void() army_painb13=[ $soldierc, army_painb14] {};
+void() army_painb14=[ $soldierc, army_run1       ] {};
+void() army_painc1 =[ $soldierc, army_painc2 ] {};
+void() army_painc2 =[ $soldierc, army_painc3 ]
+{ai_pain(1);};
+void() army_painc3 =[ $soldierc, army_painc4 ] {};
+void() army_painc4 =[ $soldierc, army_painc5 ] {};
+void() army_painc5 =[ $soldierc, army_painc6 ]
+{ai_painforward(1);};
+void() army_painc6 =[ $soldierc, army_painc7 ]
+{ai_painforward(1);};
+void() army_painc7 =[ $soldierc, army_painc8 ] {};
+void() army_painc8 =[ $soldierc, army_painc9 ]
+{ai_pain(1);};
+void() army_painc9 =[ $soldierc, army_painc10]
+{ai_painforward(4);};
+void() army_painc10=[ $soldierc, army_painc11] {ai_painforward(3);};
+void() army_painc11=[ $soldierc, army_painc12] {ai_painforward(6);};
+void() army_painc12=[ $soldierc, army_painc13] {ai_painforward(8);};
+void() army_painc13=[ $soldierc, army_run1] {};
+void(entity attacker, float damage) army_pain =
+{
+    local float r;
+    if (self.pain_finished > time)
+         return;
+    r = random();
+    if (r < 0.2)
+    {
+         self.pain_finished = time + 0.6;
+         army_pain1 ();
+         sound (self, CHAN_VOICE, "soldier/pain1.wav", 1, ATTN_NORM);
+    }
+    else if (r < 0.6)
+    {
+         self.pain_finished = time + 1.1;
+         army_painb1 ();
+         sound (self, CHAN_VOICE, "soldier/pain2.wav", 1, ATTN_NORM);
+    }
+    else
+    {
+         self.pain_finished = time + 1.1;
+         army_painc1 ();
+         sound (self, CHAN_VOICE, "soldier/pain2.wav", 1, ATTN_NORM);
+    }
+};
+void() army_fire =
+{
+    local    vector dir;
+    local    entity en;
+    ai_face();
+    sound (self, CHAN_WEAPON, "soldier/sattck1.wav", 1, ATTN_NORM);
+// dodging player
+    en = self.enemy;
+    dir = en.origin - en.velocity*0.2;
+    dir = normalize (dir - self.origin);
+    FireBullets (4, dir, '0.1 0.1 0');
+};
+void() army_die1     =[ $soldierd, army_die2     ] {};
+void() army_die2     =[ $soldierd, army_die3     ] {};
+void() army_die3     =[ $soldierd, army_die4     ]
+{self.solid = SOLID_NOT;self.ammo_shells = 5;DropBackpack();};
+void() army_die4     =[ $soldierd, army_die5     ] {};
+void() army_die5     =[ $soldierd, army_die6     ] {};
+void() army_die6     =[ $soldierd, army_die7     ] {};
+void() army_die7     =[ $soldierd, army_die8     ] {};
+void() army_die8     =[ $soldierd, army_die9     ] {};
+void() army_die9     =[ $soldierd, army_die10 ] {};
+void() army_die10 =[ $soldierd, army_die10 ] {};
+void() army_cdie1 =[ $soldierd, army_cdie2 ] {};
+void() army_cdie2 =[ $soldierd, army_cdie3 ]
+{ai_back(5);};
+void() army_cdie3 =[ $soldierd, army_cdie4 ]
+{self.solid = SOLID_NOT;self.ammo_shells = 5;DropBackpack();ai_back(4);};
+void() army_cdie4 =[ $soldierd, army_cdie5 ]
+{ai_back(13);};
+void() army_cdie5 =[ $soldierd, army_cdie6 ]
+{ai_back(3);};
+void() army_cdie6 =[ $soldierd, army_cdie7 ]
+{ai_back(4);};
+void() army_cdie7 =[ $soldierd, army_cdie8 ] {};
+void() army_cdie8 =[ $soldierd, army_cdie9 ] {};
+void() army_cdie9 =[ $soldierd, army_cdie10 ] {};
+void() army_cdie10 =[ $soldierd, army_cdie11 ] {};
+void() army_cdie11 =[ $soldierd, army_cdie11 ] {};
+void() army_die =
+{
+// check for gib
+    if (self.health < -35)
+    {
+         sound (self, CHAN_VOICE, "player/udeath.wav", 1, ATTN_NORM);
+         ThrowHead ("progs/h_guard.mdl", self.health);
+         ThrowGib ("progs/gib1.mdl", self.health);
+         ThrowGib ("progs/gib2.mdl", self.health);
+         ThrowGib ("progs/gib3.mdl", self.health);
+         return;
+    }
+// regular death
+    sound (self, CHAN_VOICE, "soldier/death1.wav", 1, ATTN_NORM);
+    if (random() < 0.5)
+         army_die1 ();
+    else
+         army_cdie1 ();
+};
+/*UG monster_army (1 0 0) (-16 -16 -24) (16 16 40) Ambush
+*/
+void() monster_army =
+{
+    if (deathmatch)
+    {
+         remove(self);
+         return;
+    }
+    precache_model ("progs/soldier.mdl");
+    precache_model ("progs/h_guard.mdl");
+    precache_model ("progs/gib1.mdl");
+    precache_model ("progs/gib2.mdl");
+    precache_model ("progs/gib3.mdl");
+    precache_sound ("soldier/death1.wav");
+    precache_sound ("soldier/idle.wav");
+    precache_sound ("soldier/pain1.wav");
+    precache_sound ("soldier/pain2.wav");
+    precache_sound ("soldier/sattck1.wav");
+    precache_sound ("soldier/sight1.wav");
+    precache_sound ("player/udeath.wav");        // gib death
+    self.solid = SOLID_SLIDEBOX;
+    self.movetype = MOVETYPE_STEP;
+    setmodel (self, "progs/soldier.mdl");
+    setsize (self, '-16 -16 -24', '16 16 40');
+   self.health = 30;
+   self.th_stand = army_stand1;
+   self.th_walk = army_walk1;
+   self.th_run = army_run1;
+   self.th_missile = army_atk1;
+   self.th_pain = army_pain;
+   self.th_die = army_die;
+   walkmonster_start ();
+};
+
